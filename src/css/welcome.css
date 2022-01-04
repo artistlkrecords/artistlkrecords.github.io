@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis&display=swap');
+
 * {
     margin: 0;
     padding: 0;
@@ -7,4 +9,32 @@ body {
     background: #0F2027;  /* fallback for old browsers */
     background: -webkit-linear-gradient(to right, #2C5364, #203A43, #0F2027);  /* Chrome 10-25, Safari 5.1-6 */
     background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+
+/*Lang Selector*/
+.lang-sel {
+    width: 80%;
+    height: 50px;
+    font-family: 'Dosis', sans-serif;
+    border: none;
+    font-size: 30px;
+}
+
+.lang-sel-btn {
+    width: 250px;
+    height: 150px;
+}
+
+
+/*Iphone 12/13 Pro*/
+@media (min-width:390) and (min-height:844) {
+    .lang-sel {
+        width: 50%;
+        height: 30px;
+        font-family: 'Dosis', sans-serif;
+        border: none;
+        font-size: 30px;
+    }
+    
 }
