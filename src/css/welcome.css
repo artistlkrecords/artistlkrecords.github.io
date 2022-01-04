@@ -30,6 +30,8 @@ body {
     background-color: rgb(1, 170, 51);
     color: white;
     border-radius: 5px;
+    text-align: center;
+    font-size: 25px;
 }
 
 
