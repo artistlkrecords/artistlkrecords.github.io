@@ -7,9 +7,15 @@ const lang_en = document.getElementById('en-en');
 const sel_btn = document.getElementById('lang-sel-btn');
 
 lang_en.addEventListener('click',()=>{
-    alert('Nigga!');
+    sel_btn.innerText = "Enter";
+    sel_btn.addEventListener('click', ()=>{
+        window.location.href = '../en/homepage/';
+    });
 });
 
 lang_es.addEventListener('click',()=>{
-    alert('White!');
+    sel_btn.innerText = "Acceder";
+    sel_btn.addEventListener('click', ()=>{
+        window.location.href = '../es/inicio/';
+    });
 });
