@@ -15,7 +15,7 @@ body {
 /*Lang Selector*/
 .lang-sel {
     width: 50%;
-    height: 25px;
+    height: 50px;
     font-family: 'Dosis', sans-serif;
     border: none;
     font-size: 30px;
@@ -37,7 +37,7 @@ body {
         height: 30px;
         font-family: 'Dosis', sans-serif;
         border: none;
-        font-size: 30px;
+        font-size: 20px;
     }
     
 }
